@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fit++</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/Index.css">
+	
+</head>
+<body style="background-image: url(imagenes/gym2.jpg)">
+<header>
+  <img src="imagenes/header.jpg" >
+  <div class="nombre"><img src="imagenes/icono.png"></div>
+</header>
+<nav>
+  <ul>
+    <li><a href="paginas/pagina1.html" target="iframe1">Home</a></li>
+    <li><a href="paginas/pagina2.html" target="iframe1">Centro</a></li>
+    <li><a href="paginas/pagina3.html" target="iframe1">Horario</a></li>
+    <li><a href="paginas/pagina5.html" target="iframe1">Galeria</a></li>
+    <li><a href="paginas/pagina6.html" target="iframe1">Monitores</a></li>
+    <li><a href="paginas/pagina7.html" target="iframe1">Registrate!</a></li>
+  </ul>
+</nav>
+<aside id="sticky">
+  <ul>
+    <li><a  href="paginas/pagina1.html" target="iframe1">Home</a></li>
+    <li><a  href="paginas/pagina2.html" target="iframe1">Centro</a></li>
+    <li><a  href="paginas/pagina3.html" target="iframe1">Horario</a></li>
+    <li><a  href="paginas/pagina5.html" target="iframe1">Galeria</a></li>
+    <li><a  href="paginas/pagina6.html" target="iframe1">Monitores</a></li>
+   <li><a  href="paginas/pagina7.html" target="iframe1">Registrate!</a></li>
+  </ul>
+</aside>
+<section>
+	<iframe name="iframe1" scrolling="no" frameborder="0" src="paginas/pagina1.html">	
+
+	</iframe>
+
+
+</section>
+<aside2  id="aside2">
+  <ul>
+    <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="imagenes/twitter.png"></a></li>
+    <li><a href="https://es-es.facebook.com/" target="_blank"><img src="imagenes/facebook.png"></a></li>
+    <li><a href="https://www.google.com/intl/es/gmail/about/#" target="_blank"><img src="imagenes/gmail.png"></a></li>
+    <li><a href="https://www.google.es/" target="_blank"><img src="imagenes/google+.jpg"></a></li>
+  </ul></aside2>
+
+
+
+
+<footer>
+	<hr class="hr">
+<p>	Redes sociales:</p>
+	<a href="https://twitter.com/?lang=es" target="_blank"><img src="imagenes/twitter.png"></a>
+	<a href="https://es-es.facebook.com/" target="_blank"><img src="imagenes/facebook.png"></a>
+	<a href="https://www.google.com/intl/es/gmail/about/#" target="_blank"><img src="imagenes/gmail.png"></a>
+	<a href="https://www.google.es/" target="_blank" ><img src="imagenes/google+.jpg"></a>
+	
+</footer>
+<center>
+<audio controls>
+		<source src="audio/musica3.mp3" type="audio/mp3">
+</audio>
+</center>
+<script>
+	
+
+window.onscroll = function() {myFunction()};
+
+var sticky2 = document.getElementById("sticky");
+var sticky = sticky2.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    sticky2.classList.add("sticky")
+  } else {
+    sticky2.classList.remove("sticky");
+  }
+}
+
+</script>
+</body>
+</html>

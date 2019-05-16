@@ -1,0 +1,21 @@
+
+*{
+	font-size: 1vw;
+}
+h1,h2 {		
+	font-size: 2vw; 
+	border-radius: 25px;
+	padding-left: 5px;
+	border:2px solid black;  }
+h1{
+
+	background-color: orange;
+
+}
+h2 {
+	background-color: lightblue;
+
+}
+div {
+	width:41vw;
+}

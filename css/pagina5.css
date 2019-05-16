@@ -1,0 +1,22 @@
+
+	body {width: 100%;height: 100%;background-image: url(../imagenes/fondo.jpg);}
+	img {height: 200px;
+		width: 25%;
+		transition: width 2s, height 2s;
+	}
+img:hover {width: 40%;
+	height: 300px;
+}
+h1 {margin-right: 30%;
+}
+
+.elgrandiv {border-radius: 25px;
+background-color: #f2f2f2;
+padding: 20px;
+width: 70%;
+box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.divdeimagenes{margin-left: 2%;}
+
+h1 {margin-left: 275px;}
+	

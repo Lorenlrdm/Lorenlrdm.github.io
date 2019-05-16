@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="../css/Miniiframe.css">
+</head>
+<body onload="displayResult()">
+	<div class="borde">
+	<div id="idxml"></div>
+
+</p>
+</div>
+<script type="text/javascript">/*XSL*/
+    function loadXMLDoc(filename) {
+      if (window.ActiveXObject) {
+        xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+      } else {
+        xhttp = new XMLHttpRequest();
+      }
+      xhttp.open("GET", filename, false);
+      try {
+        xhttp.responseType = "msxml-document"
+      } catch (err) {} // Helping IE11
+      xhttp.send("");
+      return xhttp.responseXML;
+    }
+
+    function displayResult() {
+      xml = loadXMLDoc("../xml/xml.xml");
+      xsl = loadXMLDoc("../xml/zumba.xsl");
+      // code for IE
+      if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+        ex = xml.transformNode(xsl);
+        document.getElementById("idxml").innerHTML = ex;
+      }
+      // code for Chrome, Firefox, Opera, etc.
+      else if (document.implementation && document.implementation.createDocument) {
+        xsltProcessor = new XSLTProcessor();
+        xsltProcessor.importStylesheet(xsl);
+        resultDocument = xsltProcessor.transformToFragment(xml, document);
+        document.getElementById("idxml").appendChild(resultDocument);
+      }
+    }
+
+   
+  </script>
+</body>
+</html>

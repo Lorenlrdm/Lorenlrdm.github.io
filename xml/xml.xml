@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<actividades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividades.xsd">
+    <articulo>
+        <tipo>tipo_hiit</tipo>
+        <titulo>HIIT</titulo>
+        <descripcion>El High Intensity Interval Training (HIIT) es un tipo de entrenamiento cardiovascular de alta intensidad que está de moda. Ya sea en el gimnasio, en el parque, o en casa, son cada día más los que se animan a hacer tablas de ejercicios en las que se mezclan breves intervalos de trabajo fuerte con otros, también cortos, de relajación, ya sea completa o parcial. De esta manera se maximizan los resultados minimizando el tiempo de trabajo.</descripcion>
+      </articulo>
+      
+      <articulo>
+        <tipo>tipo_gap</tipo>
+        <titulo>Gap</titulo>
+        <descripcion>¿Qué es GAP? El GAP es una gimnasia de mantenimiento que trata de poner firmes y endurecidos nuestros Glúteos, Abdominales y Piernas. Un entrenamiento en alza en gimnasios y polideportivos para luchar contra el sedentarismo actual y contra la acumulación de grasas en determinadas partes del cuerpo. </descripcion>
+    </articulo>
+    
+   <articulo>
+       <tipo>tipo_yoga</tipo>
+        <titulo>Yoga</titulo>
+        <descripcion>Durante una sesión de yoga, que suelen durar entre una hora y una hora y media, se practican diferentes asanas o posturas armonizadas con la respiración, beneficiosas tanto para el cuerpo como para la mente. Las asanas tienen diferentes grados de dificultad, desde las más sencillas para principiantes, hasta las más extremas que practican los alumnos avanzados.</descripcion>
+      </articulo>
+      <articulo>
+        <tipo>tipo_bike</tipo>
+        <titulo>Bike</titulo>
+        <descripcion>¿La dinámica? Pedalear sobre una bici estática al ritmo frenético de la música. Una alternativa perfecta para trabajar la zona media de nuestra anatomía. Por un lado, tonifica las piernas, ya que el desarrollo de la sesión se realiza prácticamente en su totalidad con las piernas, trabajando a diferentes resistencias y cadencias, y favoreciendo también la vascularización (y, por tanto, mejorando la celulitis).</descripcion>
+    </articulo>
+
+    <articulo>
+        <tipo>tipo_body</tipo>
+        <titulo>Body</titulo>
+        <descripcion>Entrenamiento de fuerza en el que se trabajan distintas zonas musculares al ritmo de la música. Según Gómez, el éxito del body pump radica, en parte, en que como cada persona elige el peso con el que quiere trabajar sus músculos. Una clase puede servir tanto para definir, como para tonificar o aumentar la masa muscular, lo que abarca las expectativas de un gran abanico de gente.</descripcion>
+      </articulo>
+      <articulo>
+        <tipo>tipo_bodyjump</tipo>
+        <titulo>Body Jump</titulo>
+        <descripcion>También llamado Power Jump, es un ejercicio completo que tonifica y mejora la resistencia cardiovascular.
+Se trata de un entrenamiento fitness en el que realizas ejercicios sobre una cama elástica o mini trampolín, de modo que estás continuamente saltando, ejercitando tus piernas y el resto del cuerpo con ejercicios aeróbicos y de cardio de intensidad media a alta</descripcion>
+    </articulo>
+    
+    <articulo>
+        <tipo>tipo_pilates</tipo>
+        <titulo>Pilates</titulo>
+        <descripcion>El método Pilates, bautizado por su creador como contrología, se basa en ejercicios que ayudan a mejorar la tonificación de los músculos a través de una sucesión de movimientos fluidos. Su esencia radica en la utilización del cerebro para el control del cuerpo, fomentando el equilibrio.Es importante saber que el Pilates se basa en seis principios concretos:Concentración,Precisión,Respiración,Control,Fluidez de movimiento,Centralización</descripcion>
+      </articulo>
+      <articulo>
+        <tipo>tipo_core</tipo>
+        <titulo>Core</titulo>
+        <descripcion>Core significa núcleo en inglés, y hace referencia a toda la musculatura que abarca la región abdominal y la parte baja de la espalda, la cual forma una especie de corsé que protege los órganos internos. Además, un core fuerte ayuda a mantener el centro de gravedad, fundamental para el equilibrio, la coordinación y la estabilidad general del cuerpo.
+
+Por otra parte, el trabajo de core mejora la respiración ya que, al ejercitar la musculatura que forma el complejo lumbopélvico-cadera, conseguimos expulsar todo el aire de los pulmones, lo que favorece la oxigenación al dejar más espacio para aire limpio.</descripcion>
+    </articulo>
+    
+    <articulo>
+        <tipo>tipo_zumba</tipo>
+        <titulo>Zumba</titulo>
+        <descripcion>Zumba es una disciplina deportiva que se imparte en clases dirigidas en la que se realizan ejercicios aeróbicos al ritmo de música latina (merengue, samba, reggaeton, cumbia y salsa) con la finalidad de perder peso de forma divertida y mejorar el estado de ánimo de los deportistas.</descripcion>
+    </articulo>
+</actividades>

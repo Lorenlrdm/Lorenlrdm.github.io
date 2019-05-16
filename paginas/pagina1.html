@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="../css/pagina1.css">
+<head>
+	
+</head>
+<body onload="displayResult()">
+
+<div class="grandiv">
+
+ 
+  <div class="animacion">
+    <img src="../imagenes/visor1.jpg">
+  </div>
+  <div class="animacion">
+    <img src="../imagenes/visor2.jpg">
+  </div>
+  <div class="animacion">
+    <img src="../imagenes/visor3.jpg">
+  </div>
+   <div class="animacion">
+    <img src="../imagenes/visor4.jpg">
+  </div>
+</div>
+
+<div class="borde">
+	<h1>Descubre nuestro gimnasio</h1>
+	<section>
+   <h3>Gimnasio</h3>
+   <p>En nuestro gimnasio Fit++ encontraras una gran variedad de maquinas para tu libre disposición, a la vez que nuestros monitores dispuestos siempre a echarte una mano, y guiarte en tus objetivos</p>
+</section>
+<aside>
+  <h3>Clases</h3>
+  <p>Ademas de todo esto, nuestro centro cuenta con una gran variedad de clases en grupo,donde podras hacer ejercicio guiado por un profesional del deporte, a la vez que socializas con los demás compañeros de la clase </p>
+</aside>
+</div>
+
+
+<script>
+
+var carruselIndex = 0; //empieza por la 1º imagen
+showcarrusel(); //empieza la funcion sin necesidad de llamarla
+
+function showcarrusel() {
+  var i; 
+  var carrusel = document.getElementsByClassName("animacion");
+  for (i = 0; i < carrusel.length; i++) {
+    carrusel[i].style.display = "none"; //enseña todas las imagenes
+  }
+  carruselIndex++;
+  if (carruselIndex > carrusel.length) {carruselIndex = 1} 
+  carrusel[carruselIndex-1].style.display = "block"; //enseña solo una imagen
+  setTimeout(showcarrusel, 2000); //tiempo entre script y script 
+}
+
+
+</script>
+
+
+
+</body>
+</html>

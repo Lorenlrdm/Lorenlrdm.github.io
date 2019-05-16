@@ -1,0 +1,38 @@
+
+
+/* tamaño del iframe*/
+body {width: 100%;height: 100%;background-image: url(../imagenes/fondo.jpg);}
+/*tamaño de la tabla y cosas */
+table {border-collapse: collapse;
+	border:solid black 1px;}
+tr,th {padding: 15px}
+tr {border:solid black 1px;}
+h1 {background-color: #f2f2f2;
+padding: 20px;
+border-radius: 25px;
+height: 40px;
+width: 150px;
+margin: auto;
+text-align: center;
+box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.blue {background-color: deepskyblue;}
+.lightblue {background-color: lightblue;}
+.coral {background-color: coral;}
+.yellow {background-color: goldenrod;}
+.violet{background-color: violet;}
+.purple{background-color: purple;}
+.orangered {background-color: orangered;}
+.red {background-color:crimson;}
+.gray {background-color: lightslategray}
+.bisque {background-color: bisque;}
+.green {background-color: forestgreen}
+.darkgray{background-color: darkgray;}
+.divdetable {background-color: #f2f2f2;
+padding: 20px;
+border-radius: 25px;
+height: 100%;
+width:66%;
+margin-top: 1%;
+
+
+box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}

@@ -1,0 +1,9 @@
+
+		
+body {background-image: url(../imagenes/fondo.jpg);}
+.div1 {
+background-color: #f2f2f2;
+padding: 20px;
+width: 500px;
+border-radius: 25px; }
+form {font-family: "Comic Sans MS"}
